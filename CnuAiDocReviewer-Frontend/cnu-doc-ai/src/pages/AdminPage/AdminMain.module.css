@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    /*table-layout: fixed;*/
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.table tr,
+.table td {
+    font-size: 14px;
+}
+
+.table th {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+/* AdminMain.module.css */
+
+.table th.rightAlign,
+.table td.rightAlign {
+    text-align: right;
+    padding-right: 20px;
+}
+

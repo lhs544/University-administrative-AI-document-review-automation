@@ -1,0 +1,167 @@
+/* === Chatbot 패널 === */
+.chatbotPanel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 100vh;
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #282828;
+    font-weight: bold;
+}
+
+.closeButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.chatBody {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+.greetingText {
+    white-space: pre-line; /* \n 을 실제 줄바꿈으로 렌더 */
+}
+.chatInput {
+    display: flex;
+    padding: 0.75rem;
+    border-top: 1px solid #333;
+}
+
+.chatInput input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.chatInput button {
+    padding: 0.5rem 1rem;
+    background-color: #5a6ff0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.botGreetingBox {
+    display: flex;
+    align-items: flex-start; /* 상단 정렬 */
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.botMascot {
+    width: 40px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.botMessageBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.greetingText {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.optionsContainer {
+    display: flex;
+    gap: 12px;
+}
+
+.optionButton {
+    padding: 0.5rem 1.2rem;
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #2b3acf;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* === ChatBubble === */
+.bubbleWrapper {
+    display: flex;
+    margin: 8px;
+}
+
+.bot {
+    justify-content: flex-start;
+}
+
+.user {
+    justify-content: flex-end;
+}
+
+.bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    color: #333;
+    font-size: 14px;
+    word-break: break-word;
+}
+
+/* === ChatOptions === */
+.optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.optionButton {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #5a6ff0;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.optionButton:hover {
+    background-color: #3c4fd6;
+}
+
+/* === FileUploader === */
+.uploader {
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.uploadButton {
+    padding: 8px 12px;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}

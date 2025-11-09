@@ -1,0 +1,152 @@
+.documentSection {
+    background-color: #fff;
+    padding: 20px 60px;
+
+}
+
+.pageTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.selectedDept {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.searchBox input {
+    width: 100%;
+    max-width: 250px;
+    padding: 6px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: fixed;
+}
+
+.table th, .table td {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    word-break: break-word;
+    vertical-align: middle;
+}
+
+/*.table th {*/
+/*    font-weight: 600;*/
+
+/*}*/
+
+.deadlineCell {
+    max-width: 100%;
+}
+
+.dateControl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /* 줄바꿈 방지 */
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.dateInput {
+    flex: 1 1 140px;
+    max-width: 180px;
+    min-width: 120px;
+    /*padding: 5px;*/
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 6px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.submitBtn,
+.cancelBtn {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: none;
+    min-width: 60px;
+    box-sizing: border-box;
+}
+
+.submitBtn {
+    background-color: #4a80ff;
+    color: white;
+}
+
+.cancelBtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    margin: 4px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination .active {
+    font-weight: bold;
+    background-color: #dde3f3;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .pageTitle {
+        font-size: 20px;
+    }
+
+    .selectedDept {
+        font-size: 16px;
+    }
+
+    .table th, .table td {
+        font-size: 13px;
+        padding: 10px 8px;
+    }
+
+    .buttonGroup {
+        flex-direction: column;
+    }
+
+    .submitBtn,
+    .cancelBtn {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}

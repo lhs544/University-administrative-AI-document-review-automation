@@ -1,0 +1,139 @@
+.documentSection {
+    background-color: #fff;
+    padding: 20px 60px;
+
+}
+
+.pageTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.selectedDept {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.searchBox input {
+    width: 100%;
+    max-width: 250px;
+    padding: 6px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    table-layout: fixed;
+    border-bottom: 1px solid #ccc; /* 하단 줄 추가 */
+}
+
+.table th {
+    padding: 4px;
+    text-align: left;
+    word-break: break-word;
+    vertical-align: middle;
+    /* 헤더 위쪽 줄 제거 */
+    border-top: none;
+}
+
+.table td {
+    padding: 4px;
+    border-top: 1px solid #ccc; /* 본문 줄 유지 */
+    text-align: left;
+    word-break: break-word;
+    vertical-align: middle;
+}
+
+.docLink {
+    color: #0645AD;
+    text-decoration: underline;
+}
+
+.viewBtn, .manageBtn {
+    padding: 5px 10px;
+    font-size: 13px;
+    border: none;
+    background-color: #dcdcdc;
+    cursor: pointer;
+    border-radius: 4px;
+    min-width: 60px;
+}
+
+.tooltip {
+    position: absolute;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #b4b9ce;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    margin: 4px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination .active {
+    font-weight: bold;
+    background-color: #dde3f3;
+    color: #000;
+}
+.tooltip{
+    width: 300px;
+}
+
+.addBtn {
+    padding: 8px 16px;
+    background-color: #4e7fff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.addBtn:hover {
+    background-color: #365cd8;
+}
+
+.topBar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.bottomBar {
+    display: flex;
+    justify-content: flex-end;
+
+}

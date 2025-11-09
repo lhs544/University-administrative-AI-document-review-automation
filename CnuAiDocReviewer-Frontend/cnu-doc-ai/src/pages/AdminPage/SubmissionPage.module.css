@@ -1,0 +1,108 @@
+.pageTitle {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.documentSection {
+    background-color: #fff;
+    padding: 20px 60px;
+
+}
+
+.selectedDept {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.leftFilters,
+.rightFilters {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.filterGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 200px;
+}
+
+.dateRange {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkboxLabel {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* 승인 완료 텍스트 강조 */
+.approved {
+    color: red;
+    font-weight: bold;
+}
+
+/* 선택된 행 파란색 배경 */
+.selectedRow {
+    background-color: #dde3f3;
+}
+
+/* 마우스 호버 시에도 파란색 표시 */
+.table tbody tr:hover {
+    background-color: #e6ebf8;
+    cursor: pointer;
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 3px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination .active {
+    font-weight: bold;
+    background-color: #dde3f3;
+    color: #000;
+}

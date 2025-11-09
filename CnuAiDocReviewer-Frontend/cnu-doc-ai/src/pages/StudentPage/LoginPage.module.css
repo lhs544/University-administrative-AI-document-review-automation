@@ -1,0 +1,95 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Pretendard Variable', sans-serif;
+}
+
+.container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5vw;
+    box-sizing: border-box;
+}
+
+.loginBox {
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.loginButton {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.loginButton:hover {
+    background-color: #003060;
+}
+
+.actionRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    flex-wrap: wrap;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.linkText {
+    color: #004080;
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: nowrap;
+}
