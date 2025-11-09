@@ -1,4 +1,3 @@
 # University-administrative-AI-document-review-automation
-Generation-type AI Challenge (Apr-Aug 2025), CNU
-Korea Microsoft Award
+Generation-type AI Challenge (Apr-Aug 2025, CNU), Korea Microsoft Award
 
